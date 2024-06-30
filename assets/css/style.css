@@ -126,6 +126,39 @@ main {
     color: rgb(16, 17, 16);
 }
 
+#reasons{
+
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+
+#places-1 > div,
+#places-2 > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+#places p {
+    padding: 0 20px;
+}
+
+#places{
+    margin: 10px;  
+}
+
+#places hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 
 /*footer*/
@@ -177,6 +210,7 @@ main {
     #cover-text > h2, #cover-text > h3 {
         color: black;
     }
+  
 }
 
 
