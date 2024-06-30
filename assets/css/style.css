@@ -228,6 +228,22 @@ main {
     #cover-text > h2, #cover-text > h3 {
         color: black;
     }
+    /* reasons section places1 and places2*/
+    #places-1,
+    #places-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    #places-1 > div,
+    #places-2 > div {
+        width: 75%;
+    }
+    #places-2 > div{
+        text-align: end;
+        align-self: flex-end;
+    }
   
 }
 
@@ -244,4 +260,30 @@ main {
     width: 100%;
     background: url('../images/statue-liberty-3.jpg')no-repeat center center/cover;
 }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #places{
+        display: flex;
+        flex-direction: row;
+    }
+    #places > div{
+       flex: 1;
+    }
+    #places-image{
+        order: 0;
+    }
+
+    #places-2{
+        order: 1;
+    }
+
+    #places-2 > div{
+        align-self: flex-start ;
+    }
+
+    #places-1 > div {
+        align-self: flex-end;
+    }
 }
