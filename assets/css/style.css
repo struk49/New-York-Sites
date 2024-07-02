@@ -230,10 +230,6 @@ main {
     flex-grow: 1;   
 }
 
-#signup h1 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
 
 #signup-form{
     color: #fff;
@@ -242,6 +238,7 @@ main {
 }
 
 .text-input{
+    background: transparent;
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
