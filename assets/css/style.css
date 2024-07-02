@@ -235,7 +235,13 @@ main {
     color: #3a3a3a;
 }
 
-
+/*media query: large to landscape photos (576 and up) */
+@media screen and (min-width: 576px) {
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* media query: tablets and larger screens (768 and up) */
 @media screen and (min-width: 768px) {
@@ -284,6 +290,10 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+    /*gallery*/
+    #photos{
+        column-count: 3;
+    }
   
 }
 
@@ -299,7 +309,11 @@ main {
     height: 600px;
     width: 100%;
     background: url('../images/statue-liberty-3.jpg')no-repeat center center/cover;
-}
+    }
+    /*gallery*/
+    #photos{
+        column-count: 4;
+    }
 }
 
 
