@@ -237,6 +237,11 @@ main {
     padding: 30px;
 }
 
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
 .text-input {
     background: transparent;
     color: #fafafa;
